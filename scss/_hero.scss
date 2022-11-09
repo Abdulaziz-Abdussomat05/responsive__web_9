@@ -1,0 +1,33 @@
+.hero__section {
+  position: relative;
+  background-color: #FDEFE9;
+  padding: 15px 0;
+  .hero__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .hero__left-box {
+      h2 {
+        color: #1A0A03;
+        width: 370px;
+        font-size: 60px;
+        line-height: 120%;
+        margin-bottom: 20px;
+        span {
+        color: #EE5514;
+
+      }
+   
+      }
+      p {
+        width: 320px;
+        color: #1A0A03;
+        font-size: 16px;
+        line-height: 160%;
+        opacity: .7;
+        font-weight: 400;
+        margin-bottom: 80px;
+      }
+    }
+  }
+}
